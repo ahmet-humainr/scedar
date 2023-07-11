@@ -24,7 +24,7 @@ setup(
         'Programming Language :: Python :: 3.7',
     ],
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
-    python_requires='>=3.5, <3.8',
+   # python_requires='>=3.5, <3.8',
     install_requires=[
         'numpy',
         'scipy',
